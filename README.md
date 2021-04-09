@@ -1,6 +1,6 @@
 # TwitterAPIClient
 
-TwitterAPI を利用してツイートを観覧することが出来ます<br>
+TwitterAPI を利用してツイートを閲覧することが出来ます<br>
 sample:[github.io](https://fa0311.github.io/TwitterAPIClient/sample/sample.html "github.io")
 
 ## how to use
