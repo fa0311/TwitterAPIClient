@@ -75,7 +75,7 @@ foreach ($config["user_timeline"] as $user_timeline) {
         chmod("config.json", 0700);
     }
 
-    $data = file_get_contents("data.json");
+    $data = file_get_contents("data/data.json");
     $data = (array) json_decode($data, true);
 
     if ($data["lasted"] + 60 < time()) {
@@ -94,7 +94,7 @@ foreach ($config["user_timeline"] as $user_timeline) {
             file_put_contents($user_id . "/tmp.json", json_encode($statuses));
         }
         $data["lasted"] = time();
-        file_put_contents("data.json", json_encode($data));
+        file_put_contents("data/data.json", json_encode($data));
     }
 }
 if (isset($_GET["id"])) {
