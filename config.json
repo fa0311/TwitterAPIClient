@@ -1,0 +1,12 @@
+{
+    "consumerKey": "",
+    "consumerSecrect": "",
+    "accessToken": "",
+    "accessTokenSecret": "",
+    "user_timeline": [{
+        "user_id": "",
+        "count": 200,
+        "exclude_replies": false,
+        "include_rts": true
+    }]
+}
