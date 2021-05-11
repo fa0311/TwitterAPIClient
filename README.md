@@ -18,3 +18,7 @@ index.php にアクセスすると表示されます<br>
 | ------ | ---- | ------------------------------------------------------------------------- |
 | get    | type | json と指定すると json 形式て結果が得られます。                           |
 | get    | id   | config で user_timeline を複数指定した際に使います。デフォルトは 0 です。 |
+
+# License
+
+TwitterAPIClient is under MIT License
